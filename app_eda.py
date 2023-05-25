@@ -48,7 +48,7 @@ def run_app_eda() :
     column_list = st.multiselect('상관분석을 하고싶은 컬럼을 선택하세요.', df.columns[ 3 : ] ) # 2개 이상이니 리스트로 받아진다!!
     
     if len(column_list) >= 2 :
-        # df[column_list].corr()  ## 유저가 원하는 컬럼의 상관관계
+        # df[column_list].corr()  ##  유저가 원하는 컬럼의 상관관계
         fig2 = plt.figure()
         sns.heatmap(data = df[column_list].corr(numeric_only=True), annot=True,
                     vmin=-1, vmax=1, cmap='coolwarm', fmt='.2f', linewidths=0.5)
