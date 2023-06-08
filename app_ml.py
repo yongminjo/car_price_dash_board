@@ -4,7 +4,7 @@ import joblib
 
 
 def run_app_ml() :
-    st.subheader('자동차 금액 예측')
+    st.subheader('👨‍🏫 자동차 금액 예측')
 
     # 성별, 연봉, 카드빚, 자산을
     # 유저한테 입력받는다.
@@ -37,7 +37,7 @@ def run_app_ml() :
         # print('{}달러짜리 차량 구매 가능합니다.'.format(price)) # 포맷팅 방법 2
 
         if price > 0:
-            st.subheader(f'{price}달러짜리 차량 구매 가능합니다.')  # 서브헤더로 글씨를 더욱 키운다.
+            st.subheader(f'{price}달러 차량 구매 가능합니다.')  # 서브헤더로 글씨를 더욱 키운다.
 
         else:
             st.error('가격 예측이 불가능합니다.') # 음수일때는 예측불가 메시지 출력 / 에러 박스로 표시.
