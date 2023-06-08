@@ -50,3 +50,6 @@
 
 ## 시작화면 동영상
 - URL YouTube('https://youtu.be/He6G7I7ktkI')
+
+## AWS 배포 DNS
+- http://ec2-3-36-103-177.ap-northeast-2.compute.amazonaws.com:8601/
