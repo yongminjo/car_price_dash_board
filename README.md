@@ -9,6 +9,7 @@
 - Matplotlib.pyplot
 - Seaborn
 - Sikit-learn
+- streamlit
 - Joblib
 
 ## 개발환경
