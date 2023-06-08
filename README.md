@@ -38,7 +38,8 @@
     - Credit Card Debt
     - Net Worth
     - Car Purchase Amount
-- Kaggle 출처  (https://www.kaggle.com/code/martandsay/car-purchase-amount-prediction-neural-network/notebook)
+- Kaggle 출처  
+(https://www.kaggle.com/code/martandsay/car-purchase-amount-prediction-neural-network/notebook)
 
 ## Machine Learning 
 - 학습을 위해 X와 y로 데이터 분리
