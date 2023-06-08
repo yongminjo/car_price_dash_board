@@ -48,7 +48,7 @@
 - Linear Regression으로 모델링하고 학습 및 평가  
 ![screenshot](https://github.com/yongminjo/car_price_dash_board/blob/main/data/model.png?raw=true)
 
-## 시작화면 동영상
+## 홈 화면 동영상 URL
 - URL YouTube('https://youtu.be/He6G7I7ktkI')
 
 ## AWS 배포 DNS
